@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prodavnica>
+  <kategorije>
+    <kategorija id="3" naziv="dinje" />
+    <kategorija id="1" naziv="jabuke" />
+    <kategorija id="2" naziv="kruske" />
+    <kategorija id="4" naziv="lopte" />
+  </kategorije>
+  <artikli>
+    <artikal id="1" kategorija="3" naziv="dinje" cena="150" mera="kg" />
+    <artikal id="2" kategorija="3" naziv="jabuke" cena="200" mera="kg" />
+    <artikal id="3" kategorija="3" naziv="lopte" cena="550" mera="komad" />
+  </artikli>
+  <racuni>
+    <racun id="1" datum="2026-10-16" ukupno="1950">
+      <stavka artikal="1" naziv="dinje" cena="150" kolicina="2" mera="kg" />
+      <stavka artikal="3" naziv="lopte" cena="550" kolicina="3" mera="komad" />
+    </racun>
+  </racuni>
+</prodavnica>
